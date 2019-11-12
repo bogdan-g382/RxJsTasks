@@ -1,0 +1,33 @@
+::ng-deep :root {
+    --using-color: rgba(0, 0, 0, 0.801);
+    --using-background-color: rgba(255, 255, 255, 0.767);
+    --using-font-family: "Arial, sans-serif";
+    
+    --day-color: rgba(3, 3, 3, 0.781);
+    --day-background-color: rgb(190, 190, 190);
+    --day-font-family: "Arial, sans-serif";
+
+    --night-color: grey;
+    --night-background-color: rgb(75, 75, 75);
+    --night-font-family: "Helvetica";
+
+    --colorful-background-color: rgba(12, 160, 160, 0.822);
+    --colorful-color: rgba(0, 56, 0, 0.89);
+    --colorful-font-family: "Georgia";
+}
+
+.scrollable-area {
+    height: 200px;
+    overflow-y: auto;
+    width: 100px;
+}
+
+.theme-element {
+    color: var(--using-color);
+    background-color: var(--using-background-color);
+    font-family: var(--using-font-family);
+}
+
+body{
+    background-color:black;
+}
